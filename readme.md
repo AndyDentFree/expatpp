@@ -31,3 +31,5 @@ Another user of the library, Fabio Arjona Arciniegas,  wrote a book [C++ XML][CX
 [SL]: http://my.safaribooksonline.com/book/programming/cplusplus/073571052x/event-driven-processing/ch03lev1sec2?bookview=search&query=expatpp&reader=html&imagepage=
 [Issue 2]: https://github.com/AndyDentFree/expatpp/issues/2
 [libexpat]: https://github.com/libexpat/libexpat
+[expatpp.html]: ./expatpp.html
+[expatppnesting.html]: ./expatppnesting.html
