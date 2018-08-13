@@ -4,6 +4,11 @@ Expatpp is both a pattern and C++ code, for writing complex streaming parsers fo
 
 The core principles can be adapted to any event-driven parser. Basically, write simple _sub-parsers_ which parse a portion of the tree and cleanly return to their calling context.
 
+## Warning
+I have included the original expat folder copied here for historical reasons, as well as early CodeWarrior projects.
+
+Please use modern [expat from github][libexpat]. See [Issue 2]
+
 ## History
 Expatpp was written when we started saving complex reports to XML and I realised that the typical examples for using the popular [expat] parser encouraged fragile nested switch statements and we were _writing legacy code_.
 
@@ -24,3 +29,5 @@ Another user of the library, Fabio Arjona Arciniegas,  wrote a book [C++ XML][CX
 [DD]: http://www.drdobbs.com/server-side-persistence-embedded-databa/184401945
 [CX]: http://www.informit.com/articles/article.aspx?p=23277&seqNum=3
 [SL]: http://my.safaribooksonline.com/book/programming/cplusplus/073571052x/event-driven-processing/ch03lev1sec2?bookview=search&query=expatpp&reader=html&imagepage=
+[Issue 2]: https://github.com/AndyDentFree/expatpp/issues/2
+[libexpat]: https://github.com/libexpat/libexpat
